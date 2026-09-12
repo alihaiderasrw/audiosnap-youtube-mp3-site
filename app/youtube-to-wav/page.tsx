@@ -1,0 +1,1 @@
+import ContentPage from "@/components/ContentPage";export const metadata={title:"YouTube to WAV Converter"};export default function Page(){return <ContentPage format="wav" title="YouTube to WAV Converter" intro="Use WAV when you need a larger, less compressed audio workflow and your processing provider supports it."/>}
