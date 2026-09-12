@@ -1,0 +1,1 @@
+export const metadata={title:"How It Works"};export default function Page(){return <main className="legal"><div className="container content"><h1>How It Works</h1><p>Paste an eligible URL, choose a supported format and quality, then submit it. The server validates the request and uses the configured authorized processing provider.</p></div></main>}
