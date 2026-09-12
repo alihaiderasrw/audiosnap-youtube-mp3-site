@@ -1,0 +1,1 @@
+import Converter from "./Converter";export default function ContentPage({title,intro,format="mp3"}:{title:string;intro:string;format?:"mp3"|"wav"}){return <main><section className="hero"><div className="container"><h1>{title}</h1><p>{intro}</p><Converter format={format}/></div></section></main>}
