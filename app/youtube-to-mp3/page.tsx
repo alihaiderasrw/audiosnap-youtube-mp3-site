@@ -1,0 +1,1 @@
+import ContentPage from "@/components/ContentPage";export const metadata={title:"YouTube to MP3 Converter Online"};export default function Page(){return <ContentPage title="YouTube to MP3 Converter Online" intro="Paste a supported YouTube URL, choose an available bitrate and send it to the configured conversion service."/>}
