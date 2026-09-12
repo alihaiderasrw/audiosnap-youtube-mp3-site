@@ -1,7 +1,7 @@
 import type {Metadata} from "next";
 import Converter from "@/components/Converter";
+import ApiTest from "@/components/ApiTest";
 import Link from "next/link";
-import {site} from "@/lib/site";
 
 export const metadata:Metadata={title:"Free MP3 & WAV Audio Converter – Convert Files Online",description:"Convert your own audio and video files to MP3 or WAV in your browser. Choose audio quality, process files on-device, and download the converted file.",alternates:{canonical:"/"}};
 
@@ -22,6 +22,7 @@ export default function Home(){
  const faqSchema={"@context":"https://schema.org","@type":"FAQPage",mainEntity:faqs.map(([q,a])=>({"@type":"Question",name:q,acceptedAnswer:{"@type":"Answer",text:a}}))};
  return <main>
   <section className="hero"><div className="container"><span className="eyebrow">Private • Browser Based • Mobile Friendly</span><h1>Free MP3 & WAV Audio Converter</h1><p>Convert audio and video files you own or have permission to process into MP3 or WAV. Choose your audio quality and process supported files directly in your browser.</p><Converter/></div></section>
+  <section className="section"><div className="container"><ApiTest/></div></section>
   <section className="section"><div className="container"><h2>A simple online audio converter</h2><p className="section-intro">AudioSnap is built for people who need a straightforward way to change an audio or video file into a useful audio format. Instead of complicated desktop software, the converter provides a clean workflow in a modern web browser.</p><div className="grid">{[["Browser-Based Processing","Your selected local file is processed in the browser for a more private conversion workflow."],["MP3 Quality Choices","Choose 128, 192, 256 or 320 kbps depending on the balance you want between file size and bitrate."],["Video to Audio","Extract the audio track from supported video files and save it as MP3 or WAV."],["Mobile Friendly","The responsive interface is designed for phones, tablets, laptops and desktop computers."],["No Account Required","Use the local converter without creating an account or completing a complicated setup."],["Clear Download Flow","Follow conversion progress and download the finished audio file when processing completes."]].map(([h,p])=><div className="card" key={h}><h3>{h}</h3><p>{p}</p></div>)}</div></div></section>
   <section className="section white"><div className="container content">
    <h2>How to convert a video or audio file to MP3</h2><p>Start by selecting <strong>Choose audio/video file</strong> in the converter. Pick a media file that you own or have permission to process. If you are creating an MP3, select a bitrate such as 128, 192, 256 or 320 kbps, then start the conversion. AudioSnap loads its browser processing engine, shows conversion progress, and provides a download button when the output is ready.</p><p>Because media processing can require significant memory, smaller files will normally be easier for a browser to handle than very large or lengthy videos. Processing speed also depends on the device, browser and source format.</p>
