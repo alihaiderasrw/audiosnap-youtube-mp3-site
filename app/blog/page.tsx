@@ -1,0 +1,1 @@
+export const metadata={title:"Audio Conversion Blog"};export default function Page(){return <main className="legal"><div className="container content"><h1>Audio Conversion Blog</h1><p>Guides about digital audio, MP3 quality, formats and responsible conversion will be published here.</p></div></main>}
