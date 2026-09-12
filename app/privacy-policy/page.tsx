@@ -1,0 +1,1 @@
+export const metadata={title:"Privacy Policy"};export default function Page(){return <main className="legal"><div className="container content"><h1>Privacy Policy</h1><p>This starter site is designed to minimize unnecessary data collection. Update this page with your real hosting, analytics and provider details before production launch.</p></div></main>}
