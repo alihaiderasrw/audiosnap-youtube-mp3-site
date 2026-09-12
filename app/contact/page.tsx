@@ -1,0 +1,1 @@
+export const metadata={title:"Contact"};export default function Page(){return <main className="legal"><div className="container content"><h1>Contact</h1><p>Add your real support email, business information and copyright contact process before public production launch.</p></div></main>}
