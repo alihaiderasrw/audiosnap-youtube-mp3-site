@@ -1,0 +1,1 @@
+export const site = { name: "AudioSnap", url: process.env.NEXT_PUBLIC_SITE_URL || "https://example.com", description: "Convert eligible YouTube videos to MP3 audio with a simple, fast and mobile-friendly online converter." };
