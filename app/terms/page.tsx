@@ -1,0 +1,1 @@
+export const metadata={title:"Terms of Service"};export default function Page(){return <main className="legal"><div className="container content"><h1>Terms of Service</h1><p>Use this service only for content you own, have permission to process, or are otherwise legally entitled to download or convert.</p></div></main>}
