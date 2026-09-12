@@ -1,0 +1,1 @@
+export const metadata={title:"Disclaimer"};export default function Page(){return <main className="legal"><div className="container content"><h1>Disclaimer</h1><p>This site does not grant rights to third-party media. Users must ensure they have permission to download or convert submitted content.</p></div></main>}
